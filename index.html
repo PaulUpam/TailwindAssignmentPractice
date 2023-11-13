@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="w-[100%] bg-[#0F041C]">
+        <nav class="container mx-auto p-4 flex justify-between">
+
+            <div
+                class="order-1 sm:order-1 md:order-2 lg:order-1 sm:flex sm:items-center sm:justify-start md:flex md:items-center md:justify-start">
+                <div class="text-slate-50  gap-5 hidden sm:hidden md:hidden lg:flex lg:justify-center lg:items-center">
+                    <a class="text-xl" href="">Home</a>
+                    <a class="text-xl" href="">Catalog</a>
+                    <a class="text-xl" href="">Contact</a>
+                    <a class="text-xl" href="">Features</a>
+                </div>
+                <span>
+                    <button class="text-white flex sm:flex md:flex lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                        </svg>
+                    </button>
+                </span>
+
+            </div>
+            <div class="flex justify-center items-center order-2 ">
+                <img src="./assets/Group 1.png" alt="">
+            </div>
+            <div class="gap-5 order-3 justify-end  hidden sm:hidden md:flex lg:flex items-center">
+                <input class="bg-[#7B678A] opacity-0.5 focus:outline-none px-3 py-1 rounded-md " type="search"
+                    placeholder="Search games & product">
+
+                <img class="py-4 " src="./assets/fi-rs-shopping-bag.png " alt="">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="bg-[#0F041C] w-[100%] min-h-screen bg-center bg-cover bg-fixed bg-no-repeat  "
+            style="background-image: url(./assets/Isolation_Mode.png);">
+
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 text-white container mx-auto ">
+                <div class="flex justify-center items-center">
+                    <div class="">
+                        <h4 class="text-xl tracking-wider">
+                            VERTUAL HEADSETS
+                        </h4>
+                        <h2 class="text-5xl font-bold leading-normal">
+                            Experience a <br> new dimension <br> of reality
+                        </h2>
+                        <div class="flex  gap-3 mt-5">
+                            <div class="flex justify-center items-start mt-1"> <img src="./assets/Star 4.png" alt="">
+                            </div>
+                            <div class="flex justify-center items-center">
+                                <p>
+                                    Step into the future with our virtual headset, come to life right before your eyes
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="mt-5 flex gap-7 justify-center sm:justify-center md:justify-center lg:justify-start px-2 sm:px-2 md:px-0 lg:px-0">
+                            <button
+                                class="bg-[#3DDEED] px-[24px] py-[16px] rounded flex justify-center items-center gap-[24px]">
+                                <span class="text-lg text-black">Visit Store</span>
+                                <img src="./assets/arrow_forward.svg" alt="">
+                            </button>
+                            <button
+                                class="bg-transparent border border-[#FFFFFF33] px-[24px] py-[16px] rounded flex justify-center items-center gap-[12px] hover:bg-[#3DDEED]">
+                                <img src="./assets/explore.svg" alt="">
+                                <span class="text-lg">Visit Store</span>
+
+                            </button>
+
+                        </div>
+
+                        <div class="mt-3 flex justify-center items-center md:justify-start lg:justify-start  ">
+                            <div>
+                                <span class="text-[#FFFFFF]">FOLLOW US</span>
+                                <div class="flex items-center gap-3 mt-2">
+                                   <button class="border border-[#FFFFFF33] rounded p-1"><img src="./assets/twitter.png" alt=""></button>
+                                   <button class="border border-[#FFFFFF33] rounded p-1"><img src="./assets/instagram.png" alt=""></button>
+                                   <button class="border border-[#FFFFFF33] rounded p-1" ><img src="./assets/ic_round-discord.png" alt=""></button>
+                                   <button class="border border-[#FFFFFF33] rounded p-1"><img src="./assets/facebook.png" alt=""></button>
+                                   
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+                <div class="flex justify-center items-center">
+                    <img width="550px" src="./assets/Group 274.png" alt="">
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- 
+        test
+     -->
+
+
+
+</body>
+
+</html>
